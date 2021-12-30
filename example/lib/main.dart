@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_example/flutter_example.dart';
 
-void main() {
+Future<void> main() async {
   runApp(
     ExampleHomePage(
       appName: 'Example',
@@ -31,3 +31,10 @@ class TestPage extends StatelessWidget {
     );
   }
 }
+
+/**
+ * 发布流程：
+ * 1、flutter pub login
+ * 2、flutter pub publish --dry-run
+ * 3、flutter pub publish --server=https://pub.dartlang.org
+ */
