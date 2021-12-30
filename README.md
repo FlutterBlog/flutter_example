@@ -30,8 +30,8 @@ to `/example` folder.
 
 ```dart
 ExampleHomePage(
-      appName: 'Example',
-      pages: [],
+  appName: 'Example',
+  pages: [],
 ),
 ```
 
